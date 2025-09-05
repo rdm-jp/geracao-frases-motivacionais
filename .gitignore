@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -137,3 +138,19 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+=======
+# Ignorar node_modules
+node_modules/
+
+# Ignorar variáveis de ambiente
+.env
+
+# Ignorar arquivos de log
+logs/
+*.log
+npm-debug.log*
+
+# Ignorar arquivos de build ou temporários
+dist/
+build/
+>>>>>>> 00f197c (Primeiro commit: estrutura inicial do projeto)
